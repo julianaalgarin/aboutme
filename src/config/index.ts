@@ -85,11 +85,17 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/julianaalgarin/deportech",
       image: "/figo-finances.png",
     },
-    
+      {
+      name: "WEATHERMS",
+      summary: "Plataforma de pronóstico climatico.",
+      linkPreview: "/",
+      linkSource: "https://github.com/julianaalgarin/weatherms",
+      image: "/figo-finances.png",
+    },
   ],
   about: {
     description: `
-Holaa, Soy Juliana, Desarrolladora Web con 1 año de experiencia práctica en programación y más de 3 años de trayectoria profesional en marketing, ventas y atención al cliente. Me especializo en crear soluciones web escalables, fáciles de usar y visualmente atractivas, con un fuerte enfoque en el rendimiento, la usabilidad y las prácticas modernas de desarrollo.
+Holaa, Soy Juliana, Desarrolladora Web con más de un año de experiencia práctica en programación y más de 3 años de trayectoria profesional en marketing, ventas y atención al cliente. Me especializo en crear soluciones web escalables, fáciles de usar y visualmente atractivas, con un fuerte enfoque en el rendimiento, la usabilidad y las prácticas modernas de desarrollo.
 Mi experiencia diversa me permite cerrar la brecha entre la tecnología y las necesidades del negocio, entregando soluciones que no solo cumplen con los requisitos técnicos, sino que también se alinean con las expectativas de los usuarios y los objetivos organizacionales.
     `,
     image: "/girl.png",
