@@ -3,15 +3,15 @@ import Section from "./Section.astro";
 import type { ExperienceProps } from "@types";
 
 interface Props {
-  experience: ExperienceProps[];
+  experiencia: ExperienceProps[];
 }
 
-const { experience } = Astro.props;
+const { experiencia } = Astro.props;
 ---
 
-<Section text="Experiencia laboral" href="experience">
+<Section text="Experiencia laboral" href="experiencia">
   {
-    experience.map(({ company, position, startDate, endDate, summary }) => (
+  experiencia.map(({ company, position, startDate, endDate, summary }) => (
       <div class="mb-10">
         <h3 class="mb-1.5 font-serif text-2xl font-semibold text-white">
           {company}

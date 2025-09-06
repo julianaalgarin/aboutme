@@ -7,9 +7,9 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "/girl.png",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+  { text: "Experiencia", href: "#experiencia" },
+  { text: "Proyectos", href: "#proyectos" },
+  { text: "Sobre mí", href: "#sobremi" },
   ],
   socialLinks: [
     { text: "Instagram", href: "https://www.instagram.com/1julsss/" },
@@ -27,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
       "Desarrolladora con experiencia en frontend y backend. Me especializo en crear soluciones escalables, fáciles de usar y visualmente atractivas con tecnologías modernas.",
     email: "july.algarin07@gmail.com",
   },
-  experience: [
+  experiencia: [
     {
       company: "Freelance",
       position: "Desarrolladora Web",
@@ -50,14 +50,14 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
     {
-      company: "Wherever",
-      position: "Change",
+      company: "CimaExpress Licorera",
+      position: "Administradora de Punto",
       startDate: "2020",
-      endDate: "2021",
+      endDate: "Actualidad",
       summary: [
-        "Gestión y optimización de tienda en línea.",
-        "Implementación de estrategias de ventas digitales.",
-        "Mejoras en experiencia de usuario y conversión de clientes.",
+        "Administración y operación de punto de venta en licorera.",
+        "Gestión de inventarios, atención al cliente y manejo de caja.",
+        "Supervisión de personal y coordinación de turnos.",
       ],
     },
     {
@@ -71,7 +71,7 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
   ],
-  projects: [
+  proyectos: [
     {
       name: "FÉNIX",
       summary: "Plataforma de gestión digital.",
@@ -93,7 +93,7 @@ export const SITE_CONTENT: SiteContent = {
       image: "/figo-finances.png",
     },
   ],
-  about: {
+  sobremi: {
     description: `
 Holaa, Soy Juliana, Desarrolladora Web con más de un año de experiencia práctica en programación y más de 3 años de trayectoria profesional en marketing, ventas y atención al cliente. Me especializo en crear soluciones web escalables, fáciles de usar y visualmente atractivas, con un fuerte enfoque en el rendimiento, la usabilidad y las prácticas modernas de desarrollo.
 Mi experiencia diversa me permite cerrar la brecha entre la tecnología y las necesidades del negocio, entregando soluciones que no solo cumplen con los requisitos técnicos, sino que también se alinean con las expectativas de los usuarios y los objetivos organizacionales.
